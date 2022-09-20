@@ -5,15 +5,14 @@
 
 int main(void) 
 {
-	int a,b;
-	
-	printf("분자를 입력하세요 : ");
-	scanf("%d",&a);
-
-	printf("분모를 입력하세요 : ");
-	scanf("%d",&b);
-	
-	printf("나누기의 결과는 %f\n",(float)a/b);
-	 
-	return 0;
+   char c;
+   int i;
+   
+   printf("input a number : ");
+   scanf("%c", &c);
+   
+   i = c - '0';
+   printf("the input number is %i\n",i);
+   
+   return 0;
 }
